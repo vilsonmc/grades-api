@@ -12,7 +12,7 @@ import { db } from './models/index.js';
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    logger.info('Conectado ao banco de dados');
+    logger.info('Conectado ao banco de dados MongoDB');
   } catch (error) {
     logger.error(`Erro ao conectar no banco de dados! ${error}`);
 
